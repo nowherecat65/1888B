@@ -268,7 +268,7 @@ campaignTrail_temp.candidate_json = [
             "electoral_victory_message": "This guy wins!",
             "electoral_loss_message": "This guy loses!",
             "no_electoral_majority_message": "We all win?",
-            "description_as_running_mate": "<p>Following the death of John A. Logan, you were able to choose the successor. Now, heading into the election, you could convince the convention to either stick with that VP pick or opt for someone else.\n<br><br>\nBenjamin Harrison is the current Vice President who you appointed; before that, he was your Attorney General. A Civil War general and respected former Senator from Indiana, Harrison has been pivotal in continuing Logan’s work on veterans’ pensions, bolstering the administration’s support among Union veterans. His Midwestern roots and strong ties to Indiana, a critical swing state, make him a valuable asset to the ticket. Harrison’s reputation for honesty and integrity has earned him respect across party lines. Additionally, his ambiguity on civil service reform allows the administration to mold his position to fit its political needs.</p>",
+            "description_as_running_mate": "<div style='overflow-y:scroll;height:200px;'><p>Following the death of John A. Logan, you were able to choose the successor. Now, heading into the election, you could convince the convention to either stick with that VP pick or opt for someone else.\n<br><br>\nBenjamin Harrison is the current Vice President who you appointed; before that, he was your Attorney General. A Civil War general and respected former Senator from Indiana, Harrison has been pivotal in continuing Logan’s work on veterans’ pensions, bolstering the administration’s support among Union veterans. His Midwestern roots and strong ties to Indiana, a critical swing state, make him a valuable asset to the ticket. Harrison’s reputation for honesty and integrity has earned him respect across party lines. Additionally, his ambiguity on civil service reform allows the administration to mold his position to fit its political needs.</p>",
             "candidate_score": 1,
             "running_mate": true
         }
@@ -283,7 +283,7 @@ campaignTrail_temp.candidate_json = [
             "party": "Republican",
             "state": "Massachusetts",
             "priority": 1,
-            "description": "<p>Following the death of John A. Logan, you were able to choose the successor. Now, heading into the election, you could convince the convention to either stick with that VP pick or opt for someone else.\n<br><br>\nHenry L. Dawes, the current Secretary of the Interior and a former senator from Massachusetts, is a prominent member of the Half-Breed faction of the Republican Party. Before joining the Blaine administration, Dawes introduced the Dawes Severalty Act, which sought to assimilate Native Americans by allotting them individual land plots. As Secretary, he successfully lobbied for its passage in 1886, cementing his reputation as a reformer. Dawes’ acceptance of Blaine’s shift to the Half-Breed camp highlights his loyalty and willingness to work within party dynamics.  \n<br><br>\nDawes’ commitment to civil service reform and modernization could appeal to Mugwumps and reform-minded Republicans. However, his nomination could provoke backlash from the Stalwart faction, potentially deepening divides within the party and alienating key constituencies. Additionally, his Eastern roots may limit his appeal in crucial swing states in the Midwest</p>",
+            "description": "<div style='overflow-y:scroll;height:200px;'><p>Following the death of John A. Logan, you were able to choose the successor. Now, heading into the election, you could convince the convention to either stick with that VP pick or opt for someone else.\n<br><br>\nHenry L. Dawes, the current Secretary of the Interior and a former senator from Massachusetts, is a prominent member of the Half-Breed faction of the Republican Party. Before joining the Blaine administration, Dawes introduced the Dawes Severalty Act, which sought to assimilate Native Americans by allotting them individual land plots. As Secretary, he successfully lobbied for its passage in 1886, cementing his reputation as a reformer. Dawes’ acceptance of Blaine’s shift to the Half-Breed camp highlights his loyalty and willingness to work within party dynamics.  \n<br><br>\nDawes’ commitment to civil service reform and modernization could appeal to Mugwumps and reform-minded Republicans. However, his nomination could provoke backlash from the Stalwart faction, potentially deepening divides within the party and alienating key constituencies. Additionally, his Eastern roots may limit his appeal in crucial swing states in the Midwest</p>",
             "color_hex": "#ff0000",
             "secondary_color_hex": null,
             "is_active": 0,
@@ -454,6 +454,22 @@ $(".container")[0].style.backgroundColor = "#f5b349";
 document.getElementById("header").src = "https://i.imgur.com/3LERWQ2.png";
 
 document.body.background = "https://i.imgur.com/X21x3DJ.jpeg";
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #FAB925;
+  }
+  a:-webkit-any-link {
+    color: #000000;
+  }
+`;
+
+document.head.appendChild(style);
+
 
 document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#bf8000!important;}</style>";
 

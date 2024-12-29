@@ -1,0 +1,476 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 5,
+        "fields": {
+            "year": 1896,
+            "summary": "<div style='overflow-y:scroll;height:200px;'><p>After one of the closest elections ever in 1884 which saw James G. Blaine carry the state of New York—and the Presidency—by just 500 votes, the country now gears up for yet another fiercely contested election. President Blaine’s first 4 years in office have been just as contentious as his election. The now-infamous Tariff of 1885, dubbed the “Second Tariff of Abominations” by its southern detractors, polarized the nation as the Republicans stood by their 1884 platform commitment to use the tariff for more than just revenue. While Blaine campaigned in favor of civil service reform, his administration has deliberately slowed it down and continued with some forms of patronage, although he did keep his promise made after the election that he wouldn’t fire any Democrat doing their job well. His tenure also saw the passage of pensions for Union civil war veterans, which has its expected supporters and detractors. The main issues of the day are regarding trade and monetary policy.<p><ul><li>Blaine will make the case that his tariffs are in the best interest of business and labor, as well as trying to keep the Mugwump faction of Republicans disillusioned with the party dragging its feet on civil service reform from jumping ship. He will also advocate strongly for the gold standard.</li><li>Thomas F. Bayard will have to defend his record during the civil war as an apologist towards the Confederacy and a Peace Democrat. He will argue that the Tariff of 1885 must be repealed and that tariffs should be further lowered beyond that. He will attempt to win over the Half-breeds and Mugwumps from the Republicans by pledging to expedite civil service reform and will begin the process of the Democrats warming up to the idea of bimetallism.\n<ul>\n",
+            "image_url": "https://i.imgur.com/2mBDdSv.png",
+            "winning_electoral_vote_number": 224,
+            "advisor_url": "https://i.imgur.com/JJtgj6P.png",
+            "recommended_reading": "<h4 style=\"margin-top: 0.5em;\">General Resources</h4>  <a href=\"http://www.uselectionatlas.org/RESULTS/national.php?f=0&year=1896\" target=\"_blank\">Final 1896 Results</a> <br> <a href=\"http://projects.vassar.edu/1896/1896home.html\" target=\"_blank\">1896 Election -- Overview and Political Cartoons</a> <br>  <h4>By the Candidates</h4>  William Jennings Bryan - <a href=\"http://books.google.com/books/about/The_first_battle.html?id=9k4TAAAAYAAJ\" target=\"_blank\">The First Battle: A story of the campaign of 1896</a> <br>  William Jennings Bryan - <a href=\"http://www.youtube.com/watch?v=Ydrq2-j92cU\" target=\"_blank\">\"Cross of Gold\" speech</a> <br>  William McKinley - <a href=\"http://www.youtube.com/watch?v=m6ZUneyU7Vo\" target=\"_blank\">\"Front Porch\" speech</a> <br>  <h4>The Panic of 1893</h4> <a href=\"http://www.youtube.com/watch?v=Qu_b6N-G1Os\" target=\"_blank\">The Panic of 1893 with Lawrence Reed</a> (video) <br> <a href=\"http://eh.net/encyclopedia/article/Whitten.panic.1893\" target=\"_blank\">The Depression of 1893</a>  <h4>Misceallany</h4> <a href=\"http://www.oyez.org/cases/1851-1900/1895/1895_210/\" target=\"_blank\">Plessy v. Ferguson</a> <br> <a href=\"http://www.stfrancis.edu/content/ba/ghkickul/stuwebs/btopics/works/PullmanStrike.htm\" target=\"_blank\">Pullman Strike of 1894</a> <br> <a href=\"http://en.wikipedia.org/wiki/Wilson%E2%80%93Gorman_Tariff_Act\" target=\"_blank\">Wilson-Gorman Tariff</a> <br> <a href=\"http://prosperityuk.com/2001/01/a-wonderful-wizard-of-oz-a-monetary-reform-parable/\" target=\"_blank\">The Wonderful Wizard of Oz - A Monetary Reform Parable</a>",
+            "has_visits": 0,
+            "no_electoral_majority_image": "https://www.jetsimon.com/public/static/images/1896-no-majority.jpg",
+            "creator": "Dan Bryan",
+            "display_year": "1888B"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 398,
+        "fields": {
+            "first_name": "James G.",
+            "last_name": "Blaine",
+            "election": 5,
+            "party": "Republican",
+            "state": "Maine",
+            "priority": 1,
+            "description": "<p>James G. Blaine narrowly won in 1884, carrying New York by just 500 votes. His first term has been marked by bold but divisive policies, including the passage of the highly controversial Tariff of 1885 and a mixed record on civil service reform. Blaine has championed protectionism and the gold standard, while his administration’s pensions for Union veterans have bolstered Northern support. Can Blaine defend his record and hold together a Republican coalition facing growing discontent?</p>\n",
+            "color_hex": "#FF0000",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 1,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/James_G._Blaine_-_Brady-Handy_%28cropped%29.jpg/1024px-James_G._Blaine_-_Brady-Handy_%28cropped%29.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1896 election.</h3><p>In spite of a real scare from Mr. Bryan, you have done your part to preserve good order in the United States.</p><p>None of that changes the fact that the country is facing a depression with millions out of work. Are you the man to lead the nation back into greatness?</p><p>Your first order of business will be tariff increases to stimulate industry, as well as a new commitment to the gold standard.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 1896 election.</h3><p>The titans of American industry were counting on you to put down this nonsense idea of free silver, and to protect them from the other whims of the populist Democrats. Your defeat will go down as one of the most ignominous in the history of American politics.</p><p>Bryan's victory stings all the more because after the inept Cleveland Administration, this election shouldn't have been close. Needless to say, your political career is over.</p>",
+            "no_electoral_majority_message": "<h3>Wow! You have won a true nail-biter.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Fortunately for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for you accordingly.</p><p>The important thing is that you won. Go about implementing your agenda accordingly, and pay no attention to Democrats and agitators who call for 'compromise' and 'conciliation'.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 320,
+        "fields": {
+            "first_name": "Thomas F.",
+            "last_name": "Bayard",
+            "election": 5,
+            "party": "Democrat",
+            "state": "Delaware ",
+            "priority": 2,
+            "description": "<p>Thomas F. Bayard, a longtime advocate for free trade and a smaller Federal government, now leads the Democratic charge against President Blaine. A staunch critic of the Tariff of 1885, Bayard calls for its repeal and a significant reduction in duties. While his record as a Peace Democrat during the Civil War draws criticism, Bayard seeks to unite the party by pledging to expedite civil service reform and cautiously embrace bimetallism. Can Bayard overcome his past and present a vision that appeals to disillusioned voters and reform-minded Republicans alike and be the first Democrat to win the White House since 1856</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 1,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/7/70/Thomas_F._Bayard%2C_Brady-Handy_photo_portrait%2C_circa_1870-1880_%28cropped%29.jpg",
+            "electoral_victory_message": "<h3>Congratulations! You have won the 1896 election.</h3><p>\"The Great Commoner\" will soon be President of the United States! Nobody with your political views has ever sniffed the Presidency, let alone won it, and with that in mind your supporters are rioting frenziedly in the streets. The sweetest speech of all will be your victory speech tomorrow in Lincoln, Nebraska. Prepare to enact your reform agenda and most importantly the free coinage of silver.</p>",
+            "electoral_loss_message": "<h3>Sorry! You have lost the 1896 election.</h3><p>With all of the maneuvering, chicanery, and propoganda that the Republicans threw at you, it's amazing that you even had a chance.</p><p>Regardless of the outcome this time, you have built a legion of devoted followers who will support anything you do. If you play your cards right, you just might get another shot against McKinley in four years...</p>",
+            "no_electoral_majority_message": "<h3>Sorry! You have lost in a squeaker.</h3><p>No candidate achieved a majority of the electoral votes, marking the first time this has happened since 1824. Unfortunately  for you, the majority of U.S. states have Republican controlled congressional delegations, and they will cast their votes for William McKinley.</p><p>Given the incredibly close nature of the election, you can certainly set your sights on a political comeback in 1900, if that is what you desire.</p>",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 910,
+        "fields": {
+            "first_name": "Clinton B.",
+            "last_name": "Fisk",
+            "election": 5,
+            "party": "Prohibition ",
+            "state": "New York",
+            "priority": 3,
+            "description": "",
+            "color_hex": "#ff00ff",
+            "secondary_color_hex": "#FFFFC0",
+            "is_active": 0,
+            "image_url": null,
+            "electoral_victory_message": "Congratulations!",
+            "electoral_loss_message": "Better luck next time!",
+            "no_electoral_majority_message": "Congratulations!",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 311,
+        "fields": {
+            "first_name": "Alson",
+            "last_name": "Streeter",
+            "election": 5,
+            "party": "Union Labor",
+            "state": "Illinois",
+            "priority": 20,
+            "description": "n/a",
+            "color_hex": "#0000ff",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/garret-hobart-1896.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Garret Hobart is currently President of the New Jersey Senate and a popular political figure in the Mid-Atlantic region. Before entering politics, he was a successful corporate lawyer.</p><p>Hobart is a strong party man, and the Republicans will certainly be drawing the battle lines clearly if they go with this choice.</p>",
+            "candidate_score": 0,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 996,
+        "fields": {
+            "first_name": "William R.",
+            "last_name": "Morrison",
+            "election": 5,
+            "party": "Democratic",
+            "state": "Illinois",
+            "priority": 22,
+            "description": "n/a",
+            "color_hex": "#0000ff",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/WilliamRallsMorrison.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>William R. Morrison, a respected congressman and Civil War veteran from Illinois, is held in high regard for his integrity and honesty. Known for his clean reputation, Morrison has earned the respect of Republicans, particularly those disillusioned with the corruption of the Stalwarts. His stature as a man of principle could help bridge divides within the party and attract reform-minded voters, especially among those frustrated with patronage politics.  \n<br><br>\nMorrison’s ties to Illinois, a key swing state, also provide strong regional appeal, making him an asset in the Midwest. While his focus on tariff reform aligns with Democratic principles, it’s his reputation as a trustworthy, moderate figure that makes him a unifying choice for the ticket. However, his limited national recognition could limit his usefulness to just the Midwest.</p> \n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 48,
+        "fields": {
+            "first_name": "Isaac P.",
+            "last_name": "Gray",
+            "election": 5,
+            "party": "Democrat",
+            "state": "Indiana",
+            "priority": 23,
+            "description": "n/a",
+            "color_hex": "#0000ff",
+            "secondary_color_hex": "#FFA0A0",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/3/37/IsaacPGray.png",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p> Isaac P. Gray, the current governor of Indiana, brings a unique political background to the Democratic ticket. Once a Republican, Gray switched parties in the wake of the Grant administration’s scandals, making him an ideal choice for Thomas F. Bayard’s efforts to appeal to reform-minded Mugwumps. His role in passing Reconstruction amendments during his time in Indiana politics demonstrates his commitment to national unity and could help reassure Northern voters wary of Bayard’s copperhead past. \n<br><br>\nHowever, Gray’s Reconstruction record poses risks in the South, where his staunch support for those amendments could alienate Democratic voters. This could make traditionally safe states like Tennessee and Virginia more competitive, potentially jeopardizing the party’s hold on the region.</p>\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 49,
+        "fields": {
+            "first_name": "Allen G.",
+            "last_name": "Thurman",
+            "election": 5,
+            "party": "Democrat",
+            "state": "Ohio",
+            "priority": 24,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Allen_G._Thurman_-_Brady-Handy.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": "<p>Allen G. Thurman, the “Old Roman” that's not Catholic, is a seasoned statesman and a respected elder within the Democratic Party. As a former senator and advocate for traditional Democratic principles, Thurman appeals to old-line Democrats wary of the party’s drift toward liberal reforms. His presence on the ticket could bolster support in the critical swing state of Ohio, a perennial battleground.  \n<br><br>\nHowever, Thurman’s advanced age and declining health raise concerns about his ability to actively campaign. Additionally, his vocal opposition to Republican Reconstruction policies could alienate Northern voters, making him a potential liability in regions where the memory of the Civil War remains fresh.</p>\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50,
+        "fields": {
+            "first_name": "John C.",
+            "last_name": "Black",
+            "election": 5,
+            "party": "Democrat",
+            "state": "Illinois",
+            "priority": 25,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.cmohs.org/media/23152.jpg?size=800x950",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": " <p>John C. Black, a Union war hero and former Commissioner of Pensions, is a compelling choice for the Democratic ticket. Hailing from Illinois, his Midwestern roots and strong ties to veterans make him an appealing option for solidifying support in key swing states like Indiana and Illinois. His military record lends credibility to the ticket, particularly in the North.  \n<br><br>\nHowever, Black’s association with veterans’ pensions could alienate Southern Democrats who are wary of policies seen as favoring Union soldiers. Additionally, his lack of broader national recognition and lack of elected office might limit his ability to energize the party’s base outside the Midwest.</p>\n",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 51,
+        "fields": {
+            "first_name": "Adlai",
+            "last_name": "Stevenson",
+            "election": 5,
+            "party": "Democrat",
+            "state": "Illinois",
+            "priority": 26,
+            "description": "n/a",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": "#90C0FF",
+            "is_active": 0,
+            "image_url": "https://www.jetsimon.com/public/static/images/adlai-stevenson-1896.jpg",
+            "electoral_victory_message": "n/a",
+            "electoral_loss_message": "n/a",
+            "no_electoral_majority_message": "n/a",
+            "description_as_running_mate": " <p>Adlai E. Stevenson, a prominent Illinois politician and former Postmaster General, would bring Midwestern appeal to the Democratic ticket. His ties to Illinois, a key swing state, make him an attractive choice for building support in the region.  \n<br><br>\nHowever, Stevenson’s tenure as Postmaster General, marked by extensive patronage appointments and firing of Republicans, could draw criticism from reformers and Mugwumps disillusioned with Blaine.\nInterestingly, Stevenson’s outspoken advocacy for free silver may energize rural and Western voters but risks alienating the conservative Clevelanders who support the gold standard.\n</p>",
+            "candidate_score": 0,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Benjamin",
+            "last_name": "Harrison",
+            "election": 5,
+            "party": "Republican",
+            "state": "Indiana",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://www.whitehouse.gov/wp-content/uploads/2021/01/23_benjamin_harrison.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>Following the death of John A. Logan, you were able to choose the successor. Now, heading into the election, you could convince the convention to either stick with that VP pick or opt for someone else.\n<br><br>\nBenjamin Harrison is the current Vice President who you appointed; before that, he was your Attorney General. A Civil War general and respected former Senator from Indiana, Harrison has been pivotal in continuing Logan’s work on veterans’ pensions, bolstering the administration’s support among Union veterans. His Midwestern roots and strong ties to Indiana, a critical swing state, make him a valuable asset to the ticket. Harrison’s reputation for honesty and integrity has earned him respect across party lines. Additionally, his ambiguity on civil service reform allows the administration to mold his position to fit its political needs.</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "Henry L.",
+            "last_name": "Dawes",
+            "election": 5,
+            "party": "Republican",
+            "state": "Massachusetts",
+            "priority": 1,
+            "description": "<div style='overflow-y:scroll;height:200px;'><p>Following the death of John A. Logan, you were able to choose the successor. Now, heading into the election, you could convince the convention to either stick with that VP pick or opt for someone else.\n<br><br>\nHenry L. Dawes, the current Secretary of the Interior and a former senator from Massachusetts, is a prominent member of the Half-Breed faction of the Republican Party. Before joining the Blaine administration, Dawes introduced the Dawes Severalty Act, which sought to assimilate Native Americans by allotting them individual land plots. As Secretary, he successfully lobbied for its passage in 1886, cementing his reputation as a reformer. Dawes’ acceptance of Blaine’s shift to the Half-Breed camp highlights his loyalty and willingness to work within party dynamics.  \n<br><br>\nDawes’ commitment to civil service reform and modernization could appeal to Mugwumps and reform-minded Republicans. However, his nomination could provoke backlash from the Stalwart faction, potentially deepening divides within the party and alienating key constituencies. Additionally, his Eastern roots may limit his appeal in crucial swing states in the Midwest</p>",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/HLDawes_%281%29.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<div style='overflow-y:scroll;height:200px;'><p>Following the death of John A. Logan, you were able to choose the successor. Now, heading into the election, you could convince the convention to either stick with that VP pick or opt for someone else.\n<br><br>\nHenry L. Dawes, the current Secretary of the Interior and a former senator from Massachusetts, is a prominent member of the Half-Breed faction of the Republican Party. Before joining the Blaine administration, Dawes introduced the Dawes Severalty Act, which sought to assimilate Native Americans by allotting them individual land plots. As Secretary, he successfully lobbied for its passage in 1886, cementing his reputation as a reformer. Dawes’ acceptance of Blaine’s shift to the Half-Breed camp highlights his loyalty and willingness to work within party dynamics.  \n<br><br>\nDawes’ commitment to civil service reform and modernization could appeal to Mugwumps and reform-minded Republicans. However, his nomination could provoke backlash from the Stalwart faction, potentially deepening divides within the party and alienating key constituencies. Additionally, his Eastern roots may limit his appeal in crucial swing states in the Midwest</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50002,
+        "fields": {
+            "first_name": "Levi P.",
+            "last_name": "Morton",
+            "election": 5,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ff0000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Levi_P._Morton_%28U.S._Vice_president_1889-1893%29_%28cropped%29.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<div style='overflow-y:scroll;height:200px;'><p>Following the death of John A. Logan, you were able to choose the successor. Now, heading into the election, you could convince the convention to either stick with that VP pick or opt for someone else.\n<br><br>\nLevi P. Morton, a prominent banker, former U.S. Minister to France, and congressman from Manhattan, brings substantial political and financial experience to the ticket. Representing Manhattan, New York’s most populous county, Morton could help solidify support in the crucial state of New York, a key battleground for the election. His ties to the Stalwart faction, particularly his close relationship with Roscoe Conkling, could serve as an olive branch to the more conservative wing of the Republican Party, helping unite the party ahead of the election.  \n<br><br>\nHowever, Morton’s Stalwart connections also pose a risk. His nomination could alienate the Half-Breeds and Mugwumps, whose support is essential for victory. Additionally, his association with traditional patronage politics may complicate efforts to address the growing demand for civil service reform, which could be a liability in a campaign seeking broader appeal.\n</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 83139,
+        "fields": {
+            "candidate": 398,
+            "running_mate": 50000
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 92897,
+        "fields": {
+            "candidate": 320,
+            "running_mate": 51
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 91301,
+        "fields": {
+            "candidate": 320,
+            "running_mate": 50
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 127210,
+        "fields": {
+            "candidate": 320,
+            "running_mate": 49
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 116275,
+        "fields": {
+            "candidate": 320,
+            "running_mate": 48
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 170112,
+        "fields": {
+            "candidate": 320,
+            "running_mate": 996
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 167416,
+        "fields": {
+            "candidate": 398,
+            "running_mate": 50001
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 119702,
+        "fields": {
+            "candidate": 398,
+            "running_mate": 50002
+        }
+    }
+]
+
+campaignTrail_temp.credits = "Created by TheRealJT"
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 5,
+        "candidates": [
+            398,
+            320,
+            910,
+            311
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 5,
+        "candidates": [
+            398,
+            320,
+            910,
+            311
+        ]
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 5,
+        "year": 1896,
+        "is_premium": 0,
+        "display_year": "1888B"
+    }
+]
+
+jet_data = {
+    "headerColor": "#700016",
+    "windowColor": "#ffbf00",
+    "containerColor": "#f5b349",
+    "innerWindowColor": "#bf8000",
+    "bannerImageUrl": "https://i.imgur.com/3LERWQ2.png",
+    "backgroundImageUrl": "https://i.imgur.com/X21x3DJ.jpeg",
+    "endingTextColor": "#ffffff",
+    "customQuote": "\"Burn, burn, burn this letter!\"",
+    "gameTitle": "THE CAMBLAINE TRAIL"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>THE CAMBLAINE TRAIL</h2><font id="wittyquote" size="4" color="white"><em>"Burn, burn, burn this letter!"</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#700016";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#ffbf00";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#f5b349";
+
+document.getElementById("header").src = "https://i.imgur.com/3LERWQ2.png";
+
+document.body.background = "https://i.imgur.com/X21x3DJ.jpeg";
+
+let style = document.createElement('style');
+style.type = 'text/css';
+style.id = 'dynamic-style';
+
+style.innerHTML = `
+  .campaign_trail_start_emphasis {
+    background-color: #FAB925;
+  }
+  a:-webkit-any-link {
+    color: #000000;
+  }
+`;
+
+document.head.appendChild(style);
+
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#bf8000!important;}</style>";
+
+//#endcode
